@@ -1,85 +1,93 @@
-💬 Chat Karo — Real-Time Chat Application
+# 💬 Just a Real-Time Chat Application ⚡
 
-⚡ A futuristic cyberpunk-themed real-time chat app built using Spring Boot, WebSockets, and HTML/CSS/JavaScript.
+A real-time chat web application built with **Spring Boot**, **WebSockets**, and **HTML/CSS/JavaScript**, featuring a **cool UI**.
+  
+I made this project to learn about **WebSockets** and try implementing it myleft.
 
-🚀 Features
+This project demonstrates how to implement bi-directional communication between server and client using **STOMP over WebSockets**.
 
-🔁 Real-time messaging with WebSocket + STOMP
+---
 
-🌐 Multi-device connectivity (LAN or Ngrok tunneling)
+## 🚀 Features
 
-🎨 Cyberpunk UI theme — glowing neon borders, dark mode, and responsive layout
+✅ Real-time message exchange between multiple users  
+✅ WebSocket (STOMP) communication protocol  
+✅ Futuristic aesthetics  
+✅ Lightweight frontend built with HTML, CSS, and Vanilla JS  
+✅ Backend built on **Spring Boot + SockJS + STOMP**  
+✅ Local + network access supported (via Ngrok or LAN IP)  
 
-👥 Multi-user chat support
+---
 
-💾 Lightweight backend with Spring Boot WebSocket API
+## 🧠 Tech Stack
 
-🧩 Tech Stack
-Layer	Technology
-Frontend	HTML, CSS, JavaScript
-Backend	Spring Boot (Java)
-Real-time Engine	WebSocket, STOMP, SockJS
-Styling	Custom CSS (Cyberpunk Theme)
-Deployment (optional)	Ngrok / Render / Railway
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/chat-karo.git
-cd chat-karo
+| Layer | Technology Used |
+|-------|------------------|
+| Frontend | HTML, CSS (Neon/Cyberpunk theme), JavaScript |
+| Backend | Spring Boot (Java) |
+| Realtime Communication | STOMP, WebSocket, SockJS |
+| Deployment/Testing | Ngrok / Local Network |
+| Build Tool | Maven |
 
-2️⃣ Start the backend
-mvn spring-boot:run
+---
+
+## 🧩 Folder Structure
+
+APP/
+│
+├── .mvn/                             # Maven wrapper folder
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/chat/app/
+│   │   │       ├── config/
+│   │   │       │   └── WebSocketConfig.java       # WebSocket + STOMP setup
+│   │   │       │
+│   │   │       ├── controller/
+│   │   │       │   └── ChatController.java         # Handles message routing
+│   │   │       │
+│   │   │       ├── model/
+│   │   │       │   └── ChatMessage.java            # Message data model
+│   │   │       │
+│   │   │       └── AppApplication.java             # Main Spring Boot application
+│   │   │
+│   │   ├── resources/
+│   │   │   ├── static/                            
+│   │   │   ├── templates/
+│   │   │   │   └── chat.html                      # Chat frontend UI
+│   │   │   └── application.properties             
+│   │   │
+│   │   └── ...
+│   │
+│   └── test/                                      # (Optional: JUnit tests)
+│
+├── .gitattributes
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml                                        
+└── README.md
+
+---
 
 
-By default, it runs on http://localhost:8080.
+---
 
-3️⃣ Open the frontend
+## 🖥️ Preview
 
-Open chat.html in your browser, or serve it with a simple live server:
+![Application UI](<img width="1871" height="868" alt="Screenshot 2025-11-03 142158" src="https://github.com/user-attachments/assets/d06a980a-084f-4c48-919b-f8edfab4cb75" />)
 
-npx live-server
+---
 
-4️⃣ (Optional) Make it accessible online
+## How to run
 
-Use Ngrok:
+Clone the repo
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+```
+   
 
-ngrok http 8080
 
-🧠 How It Works
 
-Each user connects to the WebSocket endpoint (/ws).
-
-When a message is sent, it’s broadcast to all connected clients in real time.
-
-The frontend listens via STOMP over SockJS and updates instantly.
-
-Architecture Diagram:
-
-[Client A] ⇄
-             \
-              → [WebSocket Server] → [Broadcast to All Clients]
-             /
-[Client B] ⇄
-
-🎨 UI Showcase
-
-Neon cyan glow or neon red theme
-
-Inputs and buttons with glowing edges
-
-Responsive layout suitable for desktop and mobile
-
-🔮 Future Enhancements
-
-🧍‍♂️ User authentication
-
-💬 Private chat rooms
-
-🕹️ Emoji + file sharing
-
-☁️ Persistent chat history using MongoDB or Firebase
-
-👩‍💻 Author
-
-Your Name
-🌐 LinkedIn
- | 💻 GitHub
