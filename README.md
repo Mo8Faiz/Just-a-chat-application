@@ -69,8 +69,6 @@ APP/
 ├── pom.xml                                        
 └── README.md
 ```
----
-
 
 ---
 
@@ -84,10 +82,47 @@ APP/
 
 Clone the repo
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Mo8Faiz/Just-a-chat-application.git
+cd Just-a-chat-application
 ```
    
+To run Locally (on a LAN)->
 
+1. Find your local IP by running following script on cmd of :
+   Windows:
+   ```
+   ipconfig
+   ```
+   MacOS:
+   ```
+   ifconfig
+   ```
+
+2. Then replace this line(152 or 153) in chat.html :
+   ```
+   var socket = new SockJS("/chat");
+   ```
+   with
+   ```
+    const socket = new SockJS('http://YOUR_LOCAL_IP:8080/chat');
+   ```
+   and save it.
+
+3. Start up the backend :
+   ```
+   ./mvnw spring-boot:run
+   ```
+   Search this on a browser :
+   ```
+   http://YOUR_LOCAL_IP:8080/chat
+   ```
+   
+4. Then on another device connected to same LAN search :
+   ```
+   http://YOUR_LOCAL_IP:8080/chat
+   ```
+   on any broweser you use.
+
+5. A UI will open up with both Step 3 and Step 4 and both users can chat using this application.
 
 
