@@ -192,5 +192,5 @@ If you want your friends outside your LAN to join the chat, you can expose your 
 
 ---
 # License
-See the  [LICENSE](LICENSE)
+See the  [LICENSE](LICENSE.txt)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
