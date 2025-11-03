@@ -190,4 +190,6 @@ If you want your friends outside your LAN to join the chat, you can expose your 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thefaiz202@gmail.com)
 
 ---
+# License
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
