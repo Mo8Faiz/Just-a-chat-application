@@ -72,6 +72,7 @@ APP/
 │
 ├── .gitattributes
 ├── .gitignore
+├── LICENCE.txt
 ├── mvnw
 ├── mvnw.cmd
 ├── pom.xml                                        
@@ -191,5 +192,5 @@ If you want your friends outside your LAN to join the chat, you can expose your 
 
 ---
 # License
-
+See the  [LICENSE](LICENSE)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
