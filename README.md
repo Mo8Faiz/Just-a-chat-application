@@ -78,7 +78,7 @@ APP/
 
 ---
 
-## How to run
+# 🚀 How to run
 
 Clone the repo
 ```bash
@@ -86,29 +86,32 @@ git clone https://github.com/Mo8Faiz/Just-a-chat-application.git
 cd Just-a-chat-application
 ```
    
-# To run Locally (on a LAN)->
+## 🖥️ To run Locally (on a LAN)->
 
-1. Find your local IP by running following script on cmd of :
-   Windows:
-   ```
+1. **Find your local IP address**
+
+   **Windows**
+   ```bash
    ipconfig
    ```
-   MacOS:
-   ```
+   **MacOS**
+   ```bash
    ifconfig
    ```
+   Copy your IPv4 address
 
-2. Then replace this line(152 or 153) in chat.html :
+2. **Edit**
+   - Replace :
    ```
    var socket = new SockJS("/chat");
    ```
-   with
+   - With
    ```
     const socket = new SockJS('http://YOUR_LOCAL_IP:8080/chat');
    ```
-   and save it.
+   -Save it.
 
-3. Start up the backend :
+3. **Start up the backend** 
    ```
    ./mvnw spring-boot:run
    ```
@@ -117,15 +120,15 @@ cd Just-a-chat-application
    http://YOUR_LOCAL_IP:8080/chat
    ```
    
-4. Then on another device connected to same LAN search :
+4. **Search this on device connected to same LAN search** 
    ```
    http://YOUR_LOCAL_IP:8080/chat
    ```
    on any broweser you use.
 
-5. A UI will open up with both Step 3 and Step 4 and both users can chat using this application.
+5. **A UI will open up with both Step 3 and Step 4 and both users can chat using this application**.
 
-# 🌐 Run globally using ngrok
+## 🌐 Run globally using ngrok
 
 If you want your friends outside your LAN to join the chat, you can expose your Spring Boot server with Ngrok.
 
