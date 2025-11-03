@@ -189,3 +189,5 @@ If you want your friends outside your LAN to join the chat, you can expose your 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ffaaiizz/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thefaiz202@gmail.com)
 
+---
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
