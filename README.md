@@ -32,7 +32,7 @@ This project demonstrates how to implement bi-directional communication between 
 ---
 
 ## 🧩 Folder Structure
-
+```
 APP/
 │
 ├── .mvn/                             # Maven wrapper folder
@@ -68,7 +68,7 @@ APP/
 ├── mvnw.cmd
 ├── pom.xml                                        
 └── README.md
-
+```
 ---
 
 
