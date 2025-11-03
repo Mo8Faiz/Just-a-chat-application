@@ -86,7 +86,7 @@ git clone https://github.com/Mo8Faiz/Just-a-chat-application.git
 cd Just-a-chat-application
 ```
    
-To run Locally (on a LAN)->
+# To run Locally (on a LAN)->
 
 1. Find your local IP by running following script on cmd of :
    Windows:
@@ -125,4 +125,45 @@ To run Locally (on a LAN)->
 
 5. A UI will open up with both Step 3 and Step 4 and both users can chat using this application.
 
+# 🌐 Run globally using ngrok
+
+If you want your friends outside your LAN to join the chat, you can expose your Spring Boot server with Ngrok.
+
+### Install Ngrok
+
+- [Download Ngrok](https://ngrok.com/download/windows) 
+- Login and get your Auth Token from your Ngrok Dashboard
+- Connect your account:
+- ```
+  ngrok config add-authtoken YOUR_AUTHTOKEN
+  ```
+### Start your Spring Boot server
+
+```
+./mvnw spring-boot:run
+```
+### Expose port 8080 using Ngrok 
+- Do this on a separate terminal
+  ```
+  ngrok http 8080
+  ```
+### Copy the public URL
+- ngrok will show something like :
+  ```
+  Forwarding  https://futuristic-swan.ngrok-free.app -> http://localhost:8080
+  ```
+### Update chat.html
+- Replace
+  ```
+  var socket = new SockJS("/chat");
+  ```
+- With
+  ```
+  const socket = new SockJS('https://futuristic-swan.ngrok-free.app/chat');
+  ```
+### Share the Ngrok URL
+- Send this link to anyone — they can open the same chat UI from anywhere in the world 🌍:
+  ```
+  https://futuristic-swan.ngrok-free.app/chat
+  ```
 
