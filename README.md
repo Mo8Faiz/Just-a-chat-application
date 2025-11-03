@@ -8,11 +8,11 @@ I made this project to learn about **WebSockets** and try implementing it myleft
 
 This project help me learn 
 
--💡 **Practical Implementation** | Uses WebSockets + STOMP (real industry tech). 
-- 🧱 **Full-Stack Exposure** | Combines Spring Boot backend with JS frontend. 
-- 🎨 **UI/UX Flair** | Shows design thinking (cyberpunk theme). 
-- ⚙️ **Network & Deployment Skills** | Uses Ngrok & LAN configuration — not just localhost.
-- 🧠 **Problem Solving** | Demonstrates understanding of asynchronous communication.
+ - 💡 **Practical Implementation** | Uses WebSockets + STOMP (real industry tech). 
+ - 🧱 **Full-Stack Exposure** | Combines Spring Boot backend with JS frontend. 
+ - 🎨 **UI/UX Flair** | Shows design thinking (cyberpunk theme). 
+ - ⚙️ **Network & Deployment Skills** | Uses Ngrok & LAN configuration — not just localhost.
+ - 🧠 **Problem Solving** | Demonstrates understanding of asynchronous communication.
 
 ---
 
