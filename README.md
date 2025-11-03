@@ -1,10 +1,17 @@
 # 💬 Just a Real-Time Chat Application ⚡
 
 A real-time chat web application built with **Spring Boot**, **WebSockets**, and **HTML/CSS/JavaScript**, featuring a **cool UI**.
+
+This project demonstrates how to implement bi-directional communication between server and client using **STOMP over WebSockets**.
   
 I made this project to learn about **WebSockets** and try implementing it myleft.
 
-This project demonstrates how to implement bi-directional communication between server and client using **STOMP over WebSockets**.
+This project helped me learn : 
+| 💡 **Practical Implementation** | Uses WebSockets + STOMP (real industry tech). |
+| 🧱 **Full-Stack Exposure** | Combines Spring Boot backend with JS frontend. |
+| 🎨 **UI/UX Flair** | Shows design thinking (cyberpunk theme). |
+| ⚙️ **Network & Deployment Skills** | Uses Ngrok & LAN configuration — not just localhost. |
+| 🧠 **Problem Solving** | Demonstrates understanding of asynchronous communication. |
 
 ---
 
@@ -171,3 +178,12 @@ If you want your friends outside your LAN to join the chat, you can expose your 
   https://nonilluminating-apryl-tribunicial.ngrok-free.dev/chat
   ```
 ### Enjoy Chatting then
+
+---
+
+# Author
+
+**MD FAIZ**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ffaaiizz/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thefaiz202@gmail.com)
+
