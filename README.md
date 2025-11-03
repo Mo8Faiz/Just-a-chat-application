@@ -74,7 +74,8 @@ APP/
 
 ## 🖥️ Preview
 
-![Application UI](<img width="1871" height="868" alt="Screenshot 2025-11-03 142158" src="https://github.com/user-attachments/assets/d06a980a-084f-4c48-919b-f8edfab4cb75" />)
+![Application UI](https://github.com/user-attachments/assets/d06a980a-084f-4c48-919b-f8edfab4cb75)
+
 
 ---
 
@@ -153,7 +154,7 @@ If you want your friends outside your LAN to join the chat, you can expose your 
 ### Copy the public URL
 - ngrok will show something like :
   ```
-  Forwarding  https://futuristic-swan.ngrok-free.app -> http://localhost:8080
+  Forwarding  https://nonilluminating-apryl-tribunicial.ngrok-free.dev/chat
   ```
 ### Update chat.html
 - Replace
@@ -162,11 +163,11 @@ If you want your friends outside your LAN to join the chat, you can expose your 
   ```
 - With
   ```
-  const socket = new SockJS('https://futuristic-swan.ngrok-free.app/chat');
+  const socket = new SockJS('https://nonilluminating-apryl-tribunicial.ngrok-free.dev/chat');
   ```
 ### Share the Ngrok URL
 - Send this link to anyone — they can open the same chat UI from anywhere in the world 🌍:
   ```
-  https://futuristic-swan.ngrok-free.app/chat
+  https://nonilluminating-apryl-tribunicial.ngrok-free.dev/chat
   ```
-
+### Enjoy Chatting then
