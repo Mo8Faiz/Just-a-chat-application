@@ -109,7 +109,7 @@ cd Just-a-chat-application
    ```
     const socket = new SockJS('http://YOUR_LOCAL_IP:8080/chat');
    ```
-   -Save it.
+   - Save it.
 
 3. **Start up the backend** 
    ```
@@ -127,7 +127,7 @@ cd Just-a-chat-application
    on any broweser you use.
 
 5. **A UI will open up with both Step 3 and Step 4 and both users can chat using this application**.
-
+--
 ## 🌐 Run globally using ngrok
 
 If you want your friends outside your LAN to join the chat, you can expose your Spring Boot server with Ngrok.
