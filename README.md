@@ -6,7 +6,7 @@ This project demonstrates how to implement bi-directional communication between 
   
 I made this project to learn about **WebSockets** and try implementing it myseft.
 
-This project help me learn 
+This project helped me learn ->
 
  - 💡 **Practical Implementation** | Uses WebSockets + STOMP (real industry tech). 
  - 🧱 **Full-Stack Exposure** | Combines Spring Boot backend with JS frontend. 
