@@ -4,7 +4,7 @@ A real-time chat web application built with **Spring Boot**, **WebSockets**, and
 
 This project demonstrates how to implement bi-directional communication between server and client using **STOMP over WebSockets**.
   
-I made this project to learn about **WebSockets** and try implementing it myleft.
+I made this project to learn about **WebSockets** and try implementing it myseft.
 
 This project help me learn 
 
